@@ -20,7 +20,7 @@ public class linecomparison {
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        int x1, y1, x2, y2, x3, y3, x4, y4;
+        linecomparison check = new linecomparison();
         int linelength1, linelength2;
         System.out.println("Line compariosn");
         System.out.println(" First coordinates (x1, y1) : ");
@@ -35,6 +35,6 @@ public class linecomparison {
         System.out.println("second coordinates (x4, y4) : ");
         x4 = sc.nextInt();
         y4 = sc.nextInt();
-        lineCheck();
+        check.lineCheck();
     }
 }
